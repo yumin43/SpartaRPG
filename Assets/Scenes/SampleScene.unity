@@ -223,6 +223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573143829}
+  - component: {fileID: 1573143830}
   m_Layer: 0
   m_Name: QuestManager
   m_TagString: Untagged
@@ -245,6 +246,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573143830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573143828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16195dd9b26514a4485c46601c2f1c1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Quests:
+  - {fileID: 11400000, guid: a698af398fc814fa49455cfd8c21782f, type: 2}
+  - {fileID: 11400000, guid: 2d0da546db1e24c2984419e8968dbabf, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

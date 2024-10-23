@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class QuestManager : MonoBehaviour
 {
-    private static QuestManager instance;
+    private static QuestManager instance = null;
+    public List<QuestDataSO> Quests;
 
     public static QuestManager Instance
     {
@@ -23,11 +24,15 @@ public class QuestManager : MonoBehaviour
             }
             return instance;
         }
+        set
+        {
+            instance = value;
+        }
     }
 
     private void Awake() 
     {
-        if (Instance != null)
+        if (instance != null)
         {
             Destroy(gameObject);
         }
@@ -40,7 +45,11 @@ public class QuestManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        for (int i = 0; i < Quests.Count; i++)
+        {
+            QuestDataSO quest = Quests[i];
+            Debug.Log($"Quest {i + 1} - {quest.QuestName} (최소 레벨 {quest.QuestRequiredLevel})");
+        }
     }
 
     // Update is called once per frame
