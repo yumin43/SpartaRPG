@@ -259,8 +259,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quests:
-  - {fileID: 11400000, guid: a698af398fc814fa49455cfd8c21782f, type: 2}
-  - {fileID: 11400000, guid: 2d0da546db1e24c2984419e8968dbabf, type: 2}
+  - {fileID: 11400000, guid: a518524ef80ac4f0e80b525e013fcea3, type: 2}
+  - {fileID: 11400000, guid: 349003b0cdbe94451897058575a2442d, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
