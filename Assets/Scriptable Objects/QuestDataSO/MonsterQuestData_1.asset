@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0f3fee34c11a473daccb29e82b39f64, type: 3}
-  m_Name: MonsterQuestData
+  m_Name: MonsterQuestData_1
   m_EditorClassIdentifier: 
-  QuestName: 
-  QuestRequiredLevel: 0
-  QuestNPC: 0
+  QuestName: "\uC720\uB2C8\uD2F0 \uB9C8\uC2A4\uD130\uAC00 \uB418\uB294 \uAE38"
+  QuestRequiredLevel: 70
+  QuestNPC: 1
   QuestPrerequisites: 
-  MonsterName: 
+  MonsterName: "\uC548\uD61C\uB9B0 \uB9E4\uB2C8\uC800\uB2D8\uC758 \uAFB8\uC900\uACFC\uC81C"
+  SweepMonsterCount: 50

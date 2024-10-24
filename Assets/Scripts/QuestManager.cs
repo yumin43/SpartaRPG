@@ -51,10 +51,4 @@ public class QuestManager : MonoBehaviour
             Debug.Log($"Quest {i + 1} - {quest.QuestName} (최소 레벨 {quest.QuestRequiredLevel})");
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
